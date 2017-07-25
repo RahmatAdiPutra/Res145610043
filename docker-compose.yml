@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+   responsi:
+     image: responsi
+     volumes:
+       - ./website:/usr/share/nginx/html
+     ports:
+       - "80:80"
